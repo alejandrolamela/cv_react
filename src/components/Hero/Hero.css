@@ -1,0 +1,14 @@
+.hero {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(243, 79, 79);
+}
+
+.card {
+  padding: 50px;
+}
+
+.nameLastName {
+  padding-bottom: 20px;
+}/*# sourceMappingURL=Hero.css.map */
