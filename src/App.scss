@@ -8,8 +8,31 @@
     font-family: "Open Sans", sans-serif;
     font-family: "Poppins", sans-serif;
     color: rgb(13, 5, 5);
-    background-image: url('./imagess/wallper.jpg');
+    background-image: url('/imagenes/wallper.jpg');
+    background-size: cover;
+   
+    background-repeat: no-repeat;
+
+    z-index: 0;
    
    
     
   }
+
+
+
+ .boton{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 20px;
+  grid-gap:50px;
+  position: relative;
+  z-index: 1;
+  background-color: red;
+ }
+
+ .custom-btn{
+  padding: 10px;
+ }
+ 

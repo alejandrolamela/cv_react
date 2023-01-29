@@ -7,7 +7,7 @@ const LanguagesSpeak = ({ languages }) => {
       {languages.map((item) => {
         return (
           <div key={JSON.stringify(item)} className="languagesCard">
-            <p>{item.language}</p>
+            <p >{item.language}</p>
             <p>{item.wrlevel}</p>
             <p>{item.splevel}</p>
           </div>

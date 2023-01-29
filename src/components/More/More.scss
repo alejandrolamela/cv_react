@@ -1,0 +1,38 @@
+
+
+.moreBlock{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+    align-items: center;
+    
+    
+}
+
+.moreCard{
+    width: 500px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+  
+
+    
+}
+
+.moreBlock_habilities{
+    background-color: blue;
+    padding: 10px;
+}
+
+.moreBlock_volunteer{
+    padding: 10px;
+    background-color: blue;
+}
+
+.moreBlock_habilities_content{
+    display: flex;
+    flex-direction: column;
+    grid-gap:5px;
+}

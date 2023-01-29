@@ -9,13 +9,17 @@ const More = ({ more }) => {
           <h4>SKILLS</h4>
         </div>
 
-        {more.habilities.map((item) => {
+        <div className="moreBlock_habilities_content">
+          {more.habilities.map((item) => {
           return (
             <div key={JSON.stringify(item)} className="moreCard">
               <p>{item}</p>
             </div>
           );
         })}
+        </div>
+
+        
       </div>
 
       <div className="moreBlock_volunteer">

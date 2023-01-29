@@ -6,7 +6,7 @@ export const CV = {
     email: "alejandrolamelaiglesias@gmail.com",
     birthDate: "23/09/97",
     phone: "(+12) 767333841",
-    image: "/assets/cv.png",
+    image: "/assets/img_cv.jpg",
     gitHub: "https://github.com/alejandrolamela",
     iconGitHub: "/assets/iconGitHub.png",
     aboutMe: [

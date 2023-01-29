@@ -1,11 +1,4 @@
-.education {
-  width: 100%;
-  background-color: blue;
-  display: flex;
-  justify-content: center;
-}
-
-.educationBlock {
+.languagesBlock {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -14,10 +7,12 @@
   align-items: center;
 }
 
-.educationCard {
+.languagesCard {
   width: 500px;
   background-color: blue;
   display: flex;
   flex-direction: column;
   padding: 10px;
-}/*# sourceMappingURL=Education.css.map */
+  background-color: red;
+  z-index: 6;
+}/*# sourceMappingURL=LanguagesSpeak.css.map */

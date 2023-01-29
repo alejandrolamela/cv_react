@@ -13,30 +13,34 @@ function App() {
 
   return (
     <div className="App">
+    
       <Hero hero={hero} />
+      <div className="boton">
       <button
-        className="custom-btn btn-4"
+        className="custom-btn"
         onClick={() => setShowMenu("Education")}
       >
         EDUCATION
       </button>
       <button
-        className="custom-btn btn-4"
+        className="custom-btn"
         onClick={() => setShowMenu("Experience")}
       >
         EXPERIENCE
       </button>
 
       <button
-        className="custom-btn btn-4"
+        className="custom-btn"
         onClick={() => setShowMenu("LanguagesSpeak")}
       >
         LANGUAGES
       </button>
 
-      <button className="custom-btn btn-4" onClick={() => setShowMenu("MORE")}>
+      <button className="custom-btn" onClick={() => setShowMenu("MORE")}>
         MORE
       </button>
+    </div>
+        
 
       <div>
         {showMenu === "Education" ? (
@@ -49,7 +53,10 @@ function App() {
           <More more={more} />
         )}
       </div>
-    </div>
+      </div>
+
+      
+    
   );
 }
 

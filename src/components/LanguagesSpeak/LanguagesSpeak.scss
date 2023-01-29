@@ -1,0 +1,22 @@
+
+
+.languagesBlock{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+    align-items: center;
+    
+}
+
+.languagesCard{
+    width: 500px;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: red;
+z-index: 6;
+    
+}
